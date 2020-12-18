@@ -18,9 +18,10 @@ dependencies {
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
     version '2020.2'
-    updateSinceUntilBuild false
 }
 patchPluginXml {
+    sinceBuild '162'
+    untilBuild '203'
     changeNotes """
       <p>This project has been migrated to Gradle.</p>
       <p>See <a href="https://github.com/Arxing/Plugin-ChineseConverter-Gradle">Plugin-ChineseConverter-Gradle</a></p>
