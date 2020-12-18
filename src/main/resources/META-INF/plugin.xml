@@ -1,0 +1,34 @@
+<idea-plugin>
+    <id>org.arxing.chinese_converter</id>
+    <name>Chinese Converter</name>
+    <version>2.0.0</version>
+    <vendor email="meiswind711108@gmail.com" url="">Arxing</vendor>
+
+    <description><![CDATA[
+    <html>
+    <p><strong>Chinese Converter</strong> is a tool for translating between Traditional Chinese and Simplified Chinese via hotkeys without any GUI, it is more convenient, simple and fast. You can translate easily in just two steps.</p>
+    <ol>
+        <li><strong>Select a piece of text</strong>.</li>
+        <li><strong>Press <code>Ctrl+Alt+1</code></strong>, the text you selected will be translated into Traditional Chinese, or <strong>press <code>Ctrl+Alt+2</code></strong> to translate into Simplified Chinese.</li>
+    </ol>
+    </html>
+    ]]></description>
+
+<!--    <depends>com.intellij.modules.java</depends>-->
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <actions>
+        <action id="ChineseConverter.ToTraditionalAction" class="org.arxing.chineseconverter.ToTraditionalAction"
+                text="To Traditional Chinese">
+            <add-to-group group-id="CodeMenu" anchor="last"/>
+            <keyboard-shortcut first-keystroke="ctrl alt 1" keymap="$default"/>
+        </action>
+        <action id="ChineseConverter.ToSimplifiedAction" class="org.arxing.chineseconverter.ToSimplifiedAction"
+                text="To Simplified Chinese">
+            <add-to-group group-id="CodeMenu" anchor="last"/>
+            <keyboard-shortcut first-keystroke="ctrl alt 2" keymap="$default"/>
+        </action>
+    </actions>
+</idea-plugin>
