@@ -1,7 +1,7 @@
 # Chinese Converter
 
-[![](https://img.shields.io/badge/JetBrains-Intellij_Based-green.svg?style=flat-square)](https://pub.dev/packages/telebot)
-[![](https://img.shields.io/badge/Version-2.0.0-blue.svg?style=flat-square)](https://dart.dev)
+[![](https://img.shields.io/badge/JetBrains-Intellij_Based-green.svg?style=flat-square)]()
+[![](https://img.shields.io/badge/Version-2.0.0-blue.svg?style=flat-square)](https://plugins.jetbrains.com/plugin/13559-chinese-converter)
 
 `Chinese Converter` is a tool for translating between Traditional Chinese and Simplified Chinese via hotkeys without any GUI, 
 it is more convenient, simple and fast. You can translate easily in just two steps.
