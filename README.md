@@ -6,6 +6,25 @@
 `Chinese Converter` is a tool for translating between Traditional Chinese and Simplified Chinese via hotkeys without any GUI, 
 it is more convenient, simple and fast. You can translate easily in just two steps.
 
+## Supported IDEs
++ Android Studio
++ CLion
++ DataGrip
++ GoLand
++ Intellij IDEA Ulimate
++ Intellij IDEA Community
++ Intellij IDEA Educational
++ MPS
++ AppCode
++ PhpStorm
++ PyCharm
++ Professional
++ PyCharm Community
++ PyCharm Educational
++ Rider
++ RubyMine
++ WebStorm
+
 ## Demo
 
 ![](demo/demo.gif)
