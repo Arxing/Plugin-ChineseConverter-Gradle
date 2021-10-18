@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'org.arxing'
-version '2.0.0'
+version '2.1.0'
 
 repositories {
     mavenCentral()
@@ -20,8 +20,8 @@ intellij {
     version '2020.2'
 }
 patchPluginXml {
-    sinceBuild '162'
-    untilBuild '203'
+    sinceBuild '93'
+    untilBuild '212'
     changeNotes """
       <p>This project has been migrated to Gradle.</p>
       <p>See <a href="https://github.com/Arxing/Plugin-ChineseConverter-Gradle">Plugin-ChineseConverter-Gradle</a></p>

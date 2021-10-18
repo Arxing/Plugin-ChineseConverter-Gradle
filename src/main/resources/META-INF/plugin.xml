@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>org.arxing.chinese_converter</id>
     <name>Chinese Converter</name>
-    <version>2.0.0</version>
+    <version>2.1.0</version>
     <vendor email="meiswind711108@gmail.com" url="">Arxing</vendor>
 
     <description><![CDATA[
@@ -10,6 +10,12 @@
     <ol>
         <li><strong>Select a piece of text</strong>.</li>
         <li><strong>Press <code>Ctrl+Alt+1</code></strong>, the text you selected will be translated into Traditional Chinese, or <strong>press <code>Ctrl+Alt+2</code></strong> to translate into Simplified Chinese.</li>
+    </ol>
+
+    <p><strong>Chinese Converter</strong> 是一個轉換繁體/簡體中文的Plugin，可以安裝於任何基於<strong>Intellij-Based</strong>的IDE上，轉換繁體/簡體中文不需開啟任何GUI，只要按下快捷鍵就能即時轉換，非常地快速且方便。</p>
+    <ol>
+        <li><strong>反白選取要轉換的文字區塊</strong>.</li>
+        <li>按下 <code>Ctrl+Alt+1</code>(for Windows)/<code>Cmd+Alt+1</code>(for MacOS) 即能將選中區塊轉換為繁體中文，反之按下 <code>Ctrl+Alt+2</code>(for Windows)/<code>Cmd+Alt+2</code>(for MacOS) 即能將選中區塊轉換為簡體中文。</li>
     </ol>
     </html>
     ]]></description>
